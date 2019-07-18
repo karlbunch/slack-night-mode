@@ -2,6 +2,12 @@ code {
   background-color: $color-shade-darkest;
   border: 1px solid $color-shade-dark;
   color: $base-font-color;
+
+  a.app_preview_link {
+    background: $color-shade-dark;
+    border: 1px solid $color-shade-light;
+    color: $base-font-color;
+  }
 }
 
 .file_list_item.snippet .snippet_preview {
@@ -18,6 +24,7 @@ code {
 }
 
 .file_container,
+.c-pillow_file_container,
 .c-file_container {
   .CodeMirror,
   .sssh-code {

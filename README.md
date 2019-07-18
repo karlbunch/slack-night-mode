@@ -1,6 +1,8 @@
 # Slack Night Mode
 A user style for easy Slack theming. [CC0](http://creativecommons.org/publicdomain/zero/1.0/).
 
+[![Reviewed by Hound](https://img.shields.io/badge/Reviewed_by-Hound-8E64B0.svg)](https://houndci.com)
+
 ## Usage
 
 ### Browser
@@ -10,6 +12,8 @@ This theme requires that you use [a user styles extension](https://github.com/op
 ### Desktop App
 
 No official support. Workarounds exist.
+ - [dark-slack](https://github.com/calebboyd/dark-slack) cli
+ - [slack-theme-cli](https://github.com/mykeels/slack-theme-cli)
 
 **🛑 READ FIRST:** Most workarounds will request the compiled CSS file from this repository. You are strongly discouraged from using a remote CSS file. It's recommended that you create your own copy. An XSS attack could put your Slack client at risk.
 
@@ -34,7 +38,10 @@ This is based on Slack's aubergine/maroon style. It's the original theme.
 ### Variants
 
 * **Arc ([source](scss/themes/_arc-dark.scss) - [build](css/variants/arc-dark.css))** _by [@Lemmmy](https://github.com/Lemmmy)_
+* **Gruvbox Dark ([source](scss/themes/_gruvbox-dark.scss) - [build](css/variants/gruvbox-dark.css))** _by [@lvarado](https://github.com/lvarado)_
 * **Midnight Blue ([source](scss/themes/_midnight-blue.scss) - [build](css/variants/midnight-blue.css))** _by [@matt-h](https://github.com/matt-h)_
+* **Solarized Dark ([source](scss/themes/_solarized-dark.scss) - [build](css/variants/solarized-dark.css))** _by [@glostis](https://github.com/glostis)_
+* **Solarized Light ([source](scss/themes/_solarized-light.scss) - [build](css/variants/solarized-light.css))** _by [@glostis](https://github.com/glostis)_
 * **Tomorrow Dark (base16) ([repository](https://github.com/danarnold/slack-night-mode))** _by [@danarnold](https://github.com/danarnold)_
 
 ### Extensions
